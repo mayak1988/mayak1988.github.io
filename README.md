@@ -8,6 +8,11 @@
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquerries.css">
+    <style>
+    body {
+        background-color: red !important;
+    }
+</style>
 </head>
 <body>
     <nav id="desktop-nav">
