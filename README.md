@@ -1,5 +1,3 @@
-# mayak1988.github.io
-My Portfolio Website
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +41,7 @@ My Portfolio Website
     <div class="section-container">
         <div class="profile-container">
             <div class="section__pic-container">
-                <img src="assets/MK-photo.png" alt="John Doe profile picture" />
+                <img src="./assets/MK-photo.png" alt="John Doe profile picture" />
             </div>
             <div class="section__text">
                 <h3 class="title">Maya Kovalevsky</h3>
