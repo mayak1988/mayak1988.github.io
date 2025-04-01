@@ -1,2 +1,395 @@
 # mayak1988.github.io
 My Portfolio Website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquerries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Maya Kovalevsky</div>
+        <div class="hamburger-menu" >
+            <div class="hamburger-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="scrollToTop(); ToggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="ToggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="ToggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="ToggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+    <h1 class="title"></h1>
+    <div class="section-container">
+        <div class="profile-container">
+            <div class="section__pic-container">
+                <img src="./assets/MK-photo.png" alt="John Doe profile picture" />
+            </div>
+            <div class="section__text">
+                <h3 class="title">Maya Kovalevsky</h3>
+                <p class="section__text__p2">Data Analyst | Biomedical Engineer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/maya-kovalevsky/'" />
+                    <img src="./assets/github.png" alt="My Github profile" class="icon"
+                        onclick="location.href='https://github.com/mayak1988/'" />
+                </div>
+            </div>
+        </div>
+        <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+            <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+            />
+            <h3>Experience</h3>
+            <p>6+ years <br />Data Analysis | Research | Biomedical Engineering</p>
+            </div>
+            <div class="details-container">
+            <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Biomedical Engineering, Ben-Gurion Uni.<br />M.Sc. Biomedical Engineering, Technion</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+                As a seasoned Data Analyst with a Master of Science degree, I have over 6 years of experience in research and industry, specializing in the design, execution, and analysis of data-driven projects. My analytical skills are complemented by proficiency in Python, SQL, MATLAB, and Power BI, allowing me to transform complex datasets into actionable insights that support decision-making and optimize processes.
+                <br><br>
+                In the past year, I have further developed my data science expertise through online courses and hands-on projects, showcasing my ability to derive meaningful conclusions from raw data.I bring a self-driven, detail-oriented approach to every project and am passionate about using data to drive strategic success.
+            </p>
+        </div>
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+    />
+    </section>
+    <section id="experience">
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Programming & Databases</h2>
+            <div class="article-container">
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Matlab</h3>
+                <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>PostgreSQL</h3>
+                <p>Intermediate</p>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>HTML</h3>
+                <p>Basic</p>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>CSS</h3>
+                <p>Basic</p>
+                </div>
+            </article>
+        </div>
+        </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Data Analysis & Visualization</h2>
+            <div class="article-container">
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Excel</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>PowerBI</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Tableu</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Pandas</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>NumPy</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Matplotlib</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Seaborn</h3>
+                </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                <h3>Plotly</h3>
+                </div>
+            </article>
+            </div>
+        </div>
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+    />
+    </section>
+    <section id="projects">
+    <h1 class="title"> My Recent Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+            <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+            />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Github
+            </button>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Live Demo
+            </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+            <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+            />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Github
+            </button>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Live Demo
+            </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+            <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+            />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Github
+            </button>
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+            >
+                Live Demo
+            </button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+    />
+    </section>
+    <section id="contact">
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+        <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:maria.kovalevsky@gmail.com">maria.kovalevsky@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+        <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/maya-kovalevsky/">LinkedIn</a></p>
+        </div>
+    </div>
+    </section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2025 Maya Kovalevsky. All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
