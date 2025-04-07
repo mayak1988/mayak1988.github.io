@@ -1,6 +1,5 @@
-Welcome to my Portfolio website
+Welcome to my Portfolio website:)
 
-About
 
 I am a seasoned Data Analyst with a MSc degree in Biomedical Engineering. Currently working as a research assistant in Weizmann Instisute.
 I have over 6 years of experience in research and industry, specializing in the design, execution, and analysis of data-driven projects. 
