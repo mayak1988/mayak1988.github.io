@@ -230,6 +230,7 @@ section {
 
 .icon {
   cursor: pointer;
+  font-size: 2rem;
   height: 2rem;
 }
 
