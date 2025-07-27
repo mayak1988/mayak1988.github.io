@@ -290,7 +290,6 @@ section {
 
 .about-containers {
   display: flex;
-  flex-direction: column; /* <-- This is key */
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
