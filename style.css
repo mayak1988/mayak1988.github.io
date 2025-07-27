@@ -9,7 +9,13 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url('./assets/background.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 
 html {
   scroll-behavior: smooth;
