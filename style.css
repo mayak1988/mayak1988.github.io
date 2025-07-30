@@ -190,9 +190,13 @@ section {
   margin: auto 0;
 }
 
+
 .section__text {
   align-self: left;
   text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  
 }
 
 .section__text p {
@@ -204,9 +208,10 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .text-container {
