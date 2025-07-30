@@ -33,6 +33,10 @@ a,
     width: 100%;
     height: 25vh; 
     background-image: url('../assets/background.PNG');
+    background-repeat: no-repeat;        /* Prevent tiling */
+    background-size: cover;              /* Stretch and crop to fill area */
+    background-position: center center;  /* Center image in the section */
+    
     display: flex;
     justify-content: center;
     align-items: center;
