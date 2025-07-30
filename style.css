@@ -235,8 +235,8 @@ section {
 
 .icon {
   cursor: pointer;
-  font-size: 5rem;
-  height: 2rem;
+  width: 40px;  /* Adjust as needed */
+  height: 40px;
 }
 
 /* BUTTONS */
