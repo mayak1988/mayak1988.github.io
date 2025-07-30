@@ -234,8 +234,8 @@ section {
 
 .icon {
   cursor: pointer;
-  width: 6rem; 
-  height: 6rem;
+  width: 4rem; 
+  height: 4rem;
 }
 
 /* BUTTONS */
@@ -325,8 +325,7 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid transparent;
   text-align: center;
 }
 
