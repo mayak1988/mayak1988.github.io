@@ -28,6 +28,16 @@ a,
 }
 
 /* DESKTOP NAV */
+#desktop-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;       /* or a matching background */
+  z-index: 1000;                 /* ensures it stays above everything */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: subtle shadow */
+  padding: 1rem 2rem;            /* optional: spacing */
+}
+
 .hero-section {
     position: relative;
     width: 100%;
