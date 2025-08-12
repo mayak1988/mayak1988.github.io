@@ -473,7 +473,7 @@ article .icon {
 }
 
 :target {
-  scroll-margin-top: 17vh; /* same as your nav height */
+  scroll-margin-top: 17vh; /* same as padding-top/nav height */
 }
 
 /* FOOTER SECTION */
@@ -486,4 +486,5 @@ footer {
 footer p {
   text-align: center;
 }
+
 
