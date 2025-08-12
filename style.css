@@ -472,8 +472,12 @@ article .icon {
   cursor: default;
 }
 
+#page-wrapper {
+  padding-top: 17vh; /* space for navbar */
+}
+
 :target {
-  scroll-margin-top: 17vh; /* same as padding-top/nav height */
+  scroll-margin-top: 17vh;
 }
 
 /* FOOTER SECTION */
@@ -486,5 +490,6 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
