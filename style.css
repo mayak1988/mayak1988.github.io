@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  padding-top: 17vh; /* match your nav's height */
 }
 
 
@@ -471,6 +472,9 @@ article .icon {
   cursor: default;
 }
 
+:target {
+  scroll-margin-top: 17vh; /* same as your nav height */
+}
 
 /* FOOTER SECTION */
 
@@ -482,3 +486,4 @@ footer {
 footer p {
   text-align: center;
 }
+
