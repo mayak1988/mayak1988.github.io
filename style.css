@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  padding-top: 17vh; /* match your nav's height */
 }
 
 
@@ -490,6 +489,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
